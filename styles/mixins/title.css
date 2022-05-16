@@ -1,0 +1,17 @@
+.title-s {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 26px;
+  color: #000;
+}
+
+.title-white {
+  color: #fff;
+}
+
+.title-m {
+  font-weight: bold;
+  font-size: 21px;
+  line-height: 26px;
+  color: #000;
+}

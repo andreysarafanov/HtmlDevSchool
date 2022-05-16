@@ -1,0 +1,26 @@
+.subadvantages {
+  background-color: #fff;
+  padding: 26px 20px 36px 20px;
+}
+
+.subadvantage {
+  display: flex;
+  margin-bottom: 18px;
+}
+
+.subadvantage-title {
+  padding-top: 10px;
+  margin-bottom: 16px;
+}
+
+.subadvantage-texts {
+  text-align: left;
+}
+
+.subadvantage-logo-container {
+  margin-right: 12px;
+}
+
+.subadvantage-logo {
+  fill: #81b3d2;
+}

@@ -1,0 +1,42 @@
+.menu-item {
+  height: 56px;
+  background-color: #81b3d2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.menu-link {
+  flex-grow: 1;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.menu-link-text {
+  color: #fff;
+  font-size: 18px;
+  line-height: 18px;
+  font-weight: bold;
+
+  display: block;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  max-width: calc(100vw - 36px);
+}
+
+.menu-item:not(:last-child) {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.menu {
+  position: relative;
+}
+
+.menu-button {
+  position: absolute;
+  right: 10px;
+  top: 15px;
+}

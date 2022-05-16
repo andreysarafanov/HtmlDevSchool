@@ -1,0 +1,35 @@
+.banner {
+  margin-bottom: 32px;
+  background-image: url(/images/back-desktop.jpg);
+  background-color: #e0edf6;
+  position: relative;
+}
+
+.banner.index {
+  height: 389px;
+  background-position: center top;
+}
+
+.banner.form {
+  height: 157px;
+  background-position: center center;
+}
+
+.banner-text {
+  position: absolute;
+}
+
+.banner-text.index {
+  /* height: 213px; */
+  top: 10%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.banner-text.form {
+  fill: #fff;
+  /* height: 39px; */
+  top: 50%;
+  left: 50%;
+  transform: translateY(-50%) translateX(-50%);
+}

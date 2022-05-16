@@ -1,0 +1,17 @@
+.map {
+  background-image: url(/images/map.jpg);
+  background-color: #eae9e5;
+  height: 350px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.map-marker {
+  width: 27px;
+  height: 27px;
+  background-color: #81b3d2;
+  border: 5px solid #fff;
+  border-radius: 50%;
+}

@@ -1,0 +1,27 @@
+.form-fieldset {
+  position: relative;
+  margin-inline-start: 0px;
+  margin-inline-end: 0;
+  padding-block-start: 0;
+  padding-inline-start: 0;
+  padding-inline-end: 0;
+  padding-block-end: 0;
+  min-inline-size: unset;
+  width: 100%;
+  border: 0;
+  margin: 0;
+  padding: 0 20px;
+}
+
+.form-fieldset:not(:last-child) {
+  margin-bottom: 20px;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.fieldset-legend {
+  margin-bottom: 20px;
+}
+
+.form-fields-item.name {
+  margin-bottom: 20px;
+}

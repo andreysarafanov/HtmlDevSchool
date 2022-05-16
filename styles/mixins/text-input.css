@@ -1,0 +1,14 @@
+.text-input {
+  padding: 18px 22px 14px 22px;
+  overflow: auto;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 26px;
+  color: #000;
+  border: 0;
+  background-color: #f2f2f2;
+}
+
+.text-input::placeholder {
+  color: #000;
+}

@@ -1,0 +1,10 @@
+.button {
+  display: inline-flex;
+  background-color: #81b3d2;
+  color: #fff;
+  font-size: 21px;
+  font-weight: bold;
+  line-height: 26px;
+  border: 0;
+  padding: 15px 47px;
+}

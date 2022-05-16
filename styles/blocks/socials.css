@@ -1,0 +1,18 @@
+.social-networks-list {
+  display: flex;
+  gap: 6px;
+}
+
+.social-network-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 48px;
+  height: 48px;
+  background-color: #81b3d2;
+}
+
+.social-network-icon {
+  fill: #fff;
+}

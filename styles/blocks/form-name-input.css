@@ -1,0 +1,14 @@
+.name-field-label-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.name-field-label {
+  display: flex;
+  gap: 12px;
+}
+
+.name-input {
+  flex-grow: 1;
+}
