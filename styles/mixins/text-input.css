@@ -1,5 +1,6 @@
 .text-input {
   padding: 18px 22px 14px 22px;
+  width: 100%;
   overflow: auto;
   font-weight: bold;
   font-size: 18px;
@@ -11,4 +12,8 @@
 
 .text-input::placeholder {
   color: #000;
+}
+
+.text-input:focus {
+  outline: none;
 }

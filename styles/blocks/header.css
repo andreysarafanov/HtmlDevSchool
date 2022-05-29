@@ -1,6 +1,25 @@
 .header {
-  background-color: #fff;
-  /* position: sticky; */
+  position: sticky;
+  height: 56px;
   top: 0;
-  z-index: 2;
+  z-index: 10;
+  background-color: #fff;
+}
+
+.header-logo {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 20;
+}
+
+.logo-border {
+  visibility: hidden;
+}
+
+@media (min-width: 1200px) {
+  .logo-border {
+    visibility: visible;
+  }
 }

@@ -1,0 +1,30 @@
+.text-input.with-icon {
+  padding-right: 70px;
+}
+
+.text-input-with-icon-wrapper {
+  width: 100%;
+  position: relative;
+}
+
+.text-input-icon-wrapper {
+  width: 58px;
+  height: 58px;
+  background-color: #e6e6e6;
+
+  position: absolute;
+  right: 0;
+  top: 0;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon-mail {
+  fill: #000;
+}
+
+.icon-phone {
+  fill: #010101;
+}

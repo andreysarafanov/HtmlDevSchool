@@ -4,8 +4,30 @@
 
 .offers-title {
   margin-bottom: 24px;
+
+  font-weight: bold;
+  font-size: 21px;
+  line-height: 26px;
+  color: #000;
 }
 
 .offers-text {
   margin-bottom: 24px;
+}
+
+@media (min-width: 768px) {
+  .offers-title {
+    margin-bottom: 32px;
+    font-size: 30px;
+  }
+
+  .offers-text {
+    margin-bottom: 36px;
+  }
+
+  .offers {
+    width: 458px;
+    padding: 58px 0 60px;
+    margin: 0 auto;
+  }
 }

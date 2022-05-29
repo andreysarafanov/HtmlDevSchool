@@ -1,15 +1,30 @@
 .footer {
-  background-color: #fff;
   display: flex;
   flex-direction: column;
   align-items: center;
   padding: 38px 20px 22px 20px;
 }
 
-.hashtag {
+.footer-hashtag {
   margin-bottom: 32px;
 }
 
-.social-networks-list {
+.footer-social-networks {
   margin-bottom: 40px;
+}
+
+@media (min-width: 768px) {
+  .footer {
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 36px 60px;
+  }
+
+  .footer-hashtag {
+    margin: 0;
+  }
+
+  .footer-social-networks {
+    margin: 0;
+  }
 }

@@ -1,0 +1,52 @@
+.advantage-image {
+  height: 260px;
+  background-position: center top;
+}
+.advantage-image.city {
+  background-image: url(/images/photo-city.jpg);
+  background-color: #7fa43a;
+}
+.advantage-image.bridge {
+  background-image: url(/images/photo-bridge.jpg);
+  background-color: #e6b098;
+}
+
+.advantage-item {
+  position: relative;
+}
+
+@media (min-width: 768px) {
+  .advantage-list {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .advantage-item.primary {
+    flex: 0 0 100%;
+  }
+
+  .advantage-item.secondary {
+    flex: 0 0 calc(100% / 3);
+  }
+
+  .advantage-item {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .advantage-card {
+    height: 256px;
+  }
+
+  .advantage-image {
+    height: 256px;
+    flex: 0 0 calc(100% / 3 * 2);
+  }
+  .advantage-card.primary {
+    flex: 0 0 calc(100% / 3);
+  }
+
+  .advantage-image.bridge {
+    order: -1;
+  }
+}

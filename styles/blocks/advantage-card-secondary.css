@@ -1,0 +1,37 @@
+.advantage-card.secondary {
+  background-color: #eee;
+  padding: 26px 20px 22px;
+}
+
+.advantage-card.secondary .advantage-title {
+  margin-bottom: 14px;
+}
+
+.advantage-card.secondary .advantage-number {
+  margin-bottom: 14px;
+}
+
+@media (min-width: 768px) {
+  .advantage-card.secondary {
+    padding: 40px 40px 45px;
+  }
+
+  .advantage-card.secondary .advantage-number {
+    margin-bottom: 22px;
+  }
+
+  .advantage-card.secondary .advantage-title {
+    max-width: 132px;
+    margin: 0 auto 12px;
+  }
+
+  .advantage-item.secondary:not(:last-child)::after {
+    display: none;
+  }
+}
+
+@media (min-width: 1200px) {
+  .advantage-card.secondary {
+    padding: 48px 54px 58px;
+  }
+}

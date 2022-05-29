@@ -1,5 +1,5 @@
 .banner {
-  margin-bottom: 32px;
+  /* margin-bottom: 32px; */
   background-image: url(/images/back-desktop.jpg);
   background-color: #e0edf6;
   position: relative;
@@ -8,6 +8,7 @@
 .banner.index {
   height: 389px;
   background-position: center top;
+  position: relative;
 }
 
 .banner.form {
@@ -17,19 +18,22 @@
 
 .banner-text {
   position: absolute;
-}
-
-.banner-text.index {
-  /* height: 213px; */
-  top: 10%;
   left: 50%;
   transform: translateX(-50%);
 }
 
+.banner-text.index {
+  top: 10%;
+}
+
 .banner-text.form {
   fill: #fff;
-  /* height: 39px; */
-  top: 50%;
-  left: 50%;
-  transform: translateY(-50%) translateX(-50%);
+  top: 51px;
+}
+
+.banner-intro-triangle {
+  position: absolute;
+  bottom: 0;
+  fill: #fff;
+  transform: translateX(-50%);
 }

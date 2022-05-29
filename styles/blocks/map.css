@@ -1,6 +1,7 @@
 .map {
   background-image: url(/images/map.jpg);
   background-color: #eae9e5;
+  background-position: center top;
   height: 350px;
 
   display: flex;

@@ -1,0 +1,29 @@
+.checkbox-label {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 22px;
+
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 26px;
+  text-transform: none;
+}
+
+.custom-checkbox {
+  width: 56px;
+  height: 56px;
+  background-color: #f2f2f2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+}
+
+.checkbox-icon {
+  transition: opacity 0.2s;
+}
+
+.checkbox-input:not(:checked) + .custom-checkbox > .checkbox-icon {
+  opacity: 0;
+}

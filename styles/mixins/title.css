@@ -9,9 +9,15 @@
   color: #fff;
 }
 
-.title-m {
+/* .title-m {
   font-weight: bold;
   font-size: 21px;
   line-height: 26px;
   color: #000;
+} */
+
+@media (min-width: 768px) {
+  .title-s {
+    font-size: 21px;
+  }
 }

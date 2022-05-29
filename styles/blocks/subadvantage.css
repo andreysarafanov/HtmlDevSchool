@@ -1,19 +1,21 @@
 .subadvantages {
-  background-color: #fff;
   padding: 26px 20px 36px 20px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 18px;
 }
 
 .subadvantage {
   display: flex;
-  margin-bottom: 18px;
 }
 
 .subadvantage-title {
-  padding-top: 10px;
   margin-bottom: 16px;
 }
 
 .subadvantage-texts {
+  padding-top: 10px;
   text-align: left;
 }
 
@@ -23,4 +25,51 @@
 
 .subadvantage-logo {
   fill: #81b3d2;
+  width: 40px;
+  height: 40px;
+}
+
+@media (min-width: 768px) {
+  .subadvantages {
+    padding: 60px 34px 60px;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .subadvantages-item {
+    width: 26%;
+  }
+
+  .subadvantages-item.gifts {
+    order: 3;
+  }
+
+  .subadvantage {
+    flex-direction: column;
+  }
+
+  .subadvantage-logo-container {
+    margin: 0 0 24px;
+  }
+
+  .subadvantage-texts {
+    text-align: center;
+    padding: 0;
+  }
+
+  .subadvantage-title {
+    margin-bottom: 24px;
+  }
+
+  .subadvantage-logo {
+    fill: #81b3d2;
+    width: 76px;
+    height: 76px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .subadvantages {
+    padding: 58px 60px 80px;
+  }
 }

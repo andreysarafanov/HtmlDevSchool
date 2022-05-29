@@ -1,10 +1,39 @@
+/* menu */
+
+.menu {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 56px;
+}
+
+.menu.showed {
+  z-index: 30;
+}
+
+.menu-list {
+  background-color: #81b3d2;
+  transform: translateY(-100%);
+}
+
+.menu-list.showed {
+  transform: translateY(0%);
+}
+
+/* menu-item */
+
 .menu-item {
   height: 56px;
-  background-color: #81b3d2;
   display: flex;
   justify-content: center;
   align-items: center;
 }
+
+.menu-item:not(:last-child) {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+/* menu-link */
 
 .menu-link {
   flex-grow: 1;
@@ -27,16 +56,119 @@
   max-width: calc(100vw - 36px);
 }
 
-.menu-item:not(:last-child) {
-  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+/* current */
+
+.menu-item.current {
+  background-color: #5496bd;
 }
 
-.menu {
-  position: relative;
+/* active */
+
+.menu-item:not(.current):active {
+  background-color: #5496bd;
 }
+
+.menu-item:not(.current):active .menu-link-text {
+  opacity: 0.3;
+}
+
+/* menu-button */
 
 .menu-button {
   position: absolute;
-  right: 10px;
-  top: 15px;
+  right: 20px;
+  top: 50%;
+  transform: translateY(-50%);
+
+  width: 24px;
+  height: 24px;
+
+  z-index: 20;
+
+  font-size: 0;
+  padding: 0;
+  border: 0;
+}
+
+.menu-button-line {
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 4px;
+  background-color: #81b3d2;
+}
+
+/* burger */
+.menu-button-line.first {
+  top: 0;
+}
+
+.menu-button-line.second {
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.menu-button-line.third {
+  bottom: 0;
+}
+
+/* cross */
+.crossed .menu-button-line {
+  background-color: #fff;
+}
+
+.crossed .menu-button-line.first {
+  transform: translateY(-50%) rotate(45deg) scaleX(1.16);
+  top: 50%;
+  color: #fff;
+}
+
+.crossed .menu-button-line.second {
+  display: none;
+}
+
+.crossed .menu-button-line.third {
+  transform: translateY(-50%) rotate(-45deg) scaleX(1.16);
+  top: 50%;
+}
+
+@media (min-width: 768px) {
+  /* menu */
+  .menu-list {
+    transform: none;
+    display: flex;
+    background-color: #fff;
+  }
+
+  .menu-item {
+    width: 20%;
+  }
+
+  .menu-item:nth-child(2) {
+    margin-right: auto;
+  }
+
+  .menu-button {
+    display: none;
+  }
+
+  .menu-link-text {
+    color: #000;
+  }
+
+  .menu-item.current {
+    background-color: initial;
+  }
+
+  .menu-item.current .menu-link-text {
+    color: #766357;
+  }
+
+  .menu-item:not(.current):hover .menu-link-text {
+    color: #81b3d2;
+  }
+
+  .menu-item:not(.current):active .menu-link-text {
+    color: #000;
+  }
 }

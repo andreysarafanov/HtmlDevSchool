@@ -1,5 +1,6 @@
 .button {
   display: inline-flex;
+  justify-content: center;
   background-color: #81b3d2;
   color: #fff;
   font-size: 21px;
@@ -7,4 +8,5 @@
   line-height: 26px;
   border: 0;
   padding: 15px 47px;
+  cursor: pointer;
 }

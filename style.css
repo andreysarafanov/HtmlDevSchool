@@ -6,18 +6,22 @@
 /* mixins */
 @import "/styles/mixins/button.css";
 @import "/styles/mixins/title.css";
-@import "/styles/mixins/form.css";
 @import "/styles/mixins/text-input.css";
+@import "/styles/mixins/text-input-with-icon.css";
 @import "/styles/mixins/hidden.css";
 @import "/styles/mixins/radio.css";
 @import "/styles/mixins/checkbox.css";
 
 /* blocks */
-@import "/styles/blocks/advantages.css";
+@import "/styles/blocks/advantage-list.css";
+@import "/styles/blocks/advantage-card-primary.css";
+@import "/styles/blocks/advantage-card-secondary.css";
+@import "/styles/blocks/advantage-heading.css";
+@import "/styles/blocks/advantage-triangle.css";
 @import "/styles/blocks/footer.css";
 @import "/styles/blocks/header.css";
+@import "/styles/blocks/hashtag.css";
 @import "/styles/blocks/developer.css";
-@import "/styles/blocks/main.css";
 @import "/styles/blocks/banner.css";
 @import "/styles/blocks/feedback.css";
 @import "/styles/blocks/map.css";
@@ -26,5 +30,10 @@
 @import "/styles/blocks/subadvantage.css";
 @import "/styles/blocks/offers.css";
 
+@import "/styles/blocks/form-contacts-input.css";
 @import "/styles/blocks/form-emotions-area.css";
+@import "/styles/blocks/form-opinion.css";
+@import "/styles/blocks/form-fieldsets.css";
 @import "/styles/blocks/form-name-input.css";
+@import "/styles/blocks/form-sights.css";
+@import "/styles/blocks/form-submit.css";
